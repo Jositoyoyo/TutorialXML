@@ -1,8 +1,13 @@
 <?php
+include_once 'configuracion.php';
+abstract class index {
+    /**
+     * A este tipo de relacion se le llama depencia
+     */
+    static function run(){
+        $configuracion = new configuracion();
+    }
+}
+index::run();
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
