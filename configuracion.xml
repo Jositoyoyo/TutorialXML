@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuracion>
+    <database>
+        <server>localhost</server>
+        <user>root</user>
+        <password>jositoyoyo</password>
+        <db>banco</db>
+    </database>
+    <site>
+        <site_url>www.test.com</site_url>
+        <name enable="true">index.php</name>
+    </site>
+</configuracion>
